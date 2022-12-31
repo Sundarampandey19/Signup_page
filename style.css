@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+     
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+    
+}
+
+.outer-box{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(#fcca46,#00bbf9);
+}
+
+.inner-box{
+    width: 400px;
+    height: auto;
+    /* border: 2px solid #999999; */
+    background-color: #ffffff;
+    margin: 0 auto;
+    position: relative;
+    top: 40%;
+    transform: translateY(-50%);
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #3bbfd4;
+}
+
+.signup-header h1{
+    font-size: 2.5rem;
+}
+
+.signup-header p{
+    font-size: 0.8rem;
+}
+
+.signup-body {
+    margin: 20px 0;
+}
+.signup-body p{
+    margin: 10px 0;
+}
+
+.signup-body p label{
+    display: block;
+}
+.signup-body p input{
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #cccc;
+    margin-top: 4px;
+}
+
+#submit{
+    background-color: #3498db;
+    border: none ;
+    color: white;
+    cursor: pointer;
+}
+
+#submit:hover{
+    background-color: #2a7db5; ;
+}
+
+.signup-footer p {
+    text-align: center;
+    padding-bottom : 10px;
+}
+
+.circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background-color: #111111;
+    
+}
